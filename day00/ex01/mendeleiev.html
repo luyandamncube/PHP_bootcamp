@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--
+    HTML: H(H(S)BS) <html> (<head <style> > <body> <script>)
+
+    
+    /////////////////////////////////////////////////////////////
+    FLEBOXES
+    .container {
+        PROPERTIES
+        display: flex;
+        flex-direction: row | row-reverse | column | column-reverse;
+        flex-wrap: nowrap | wrap | wrap-reverse;
+        flex-basis: <length>
+        flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+        justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+        align-items: flex-start | flex-end | center | baseline | stretch;
+        }
+
+    ////////////////////////////////////////////////////////////////
+        DISPLAY:
+        FLEX_DIRECTION: 
+            rows or columns. left-right , right-left, up-downm, down-up
+        FLEX_BASIS:
+            width. 
+        JUSTIFY_CONTENT: 
+            for horizontal/main alignment
+        ALIGN_SELF: 
+            override. for horizontal/main alignment of individual items. 
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        FLEX_WRAP: 
+            nowrap (default): all flex items will be on one line
+            wrap: flex items will wrap onto multiple lines, from top to bottom.
+            wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+-->
+
+
+<html>
+    <head>
+        <title>Mendeleïev</title>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .body {
+            }
+            .h2 { 
+                color: white; 
+                display : flex;
+                font-weight: 100;
+                justify-content: center;
+            }
+            [class*="table-"]{
+                border : 1px #ccc solid;
+                
+            }
+            .weight{
+                color: white; 
+                font-size: 15px;
+                display: flex;
+                justify-content: flex-end;
+            }
+            .number{
+                color: white; 
+                font-size: 15px;
+                justify-content: flex-start;
+            }
+            [class*="td-"]{
+                border : 1px #ccc solid;
+                min-width: 60px;
+                max-height: 100px;
+                padding: 10px;
+            }
+            td-alkalimetal{
+                background-color: hotpink;
+            }	
+            td-alkaliearthmetal{
+                background-color: cornsilk;
+            }
+            td-lanthinide{
+                background-color: lightpink;
+            }
+            td-actinide{
+                
+            }
+            td-tansitionmetal{
+                background-color: lightgray;
+            }
+            td-posttransitionmetal{
+                background-color: gold;
+            }
+            td-reactivenonmetal{
+                background-color: lightgoldenrodyellow;
+            }
+            }
+            td-noblegas{
+                background-color: lightblue;
+            }
+            Alkaline earth metal	Lan­thanide	Actinide	Transition metal	Post-​transition metal	Reactive nonmetal	Noble gas
+
+        </style>
+    </head>
+    <body class="body" background="https://cdn-images-1.medium.com/max/2000/1*QS59aHuIEgJoIogixOJ32w.jpeg">
+        <div>
+            
+            <table class="table-1">
+            <tr>
+                row1
+                
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+
+                <td colspan="16"></td>
+                <td class="td-reactivenonmetal "><p class="weight">4.0026022</p><h2 class="h2">He</h2><p class="number">2</p></td>
+                
+            </tr>
+                <td class="td-reactivenonmetal "><p class="weight">6.94</p><h2 class="h2">Li</h2><p class="number">3</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">9.01218315</p><h2 class="h2">Be</h2><p class="number">4</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+                <td class="td-reactivenonmetal "><p class="weight">1.008</p><h2 class="h2">H</h2><p class="number">1</p></td>
+            <tr>
+                row2
+            </tr>
+            <tr>
+                row3
+            </tr>
+            <tr>
+                row4
+            </tr>
+            <tr>
+                row5
+            </tr>
+            <tr>
+                row6
+            </tr>
+            <tr>
+                row7
+            </tr>
+            </table>
+                
+
+
+        </div>
+    
+    </body>
+
+</html>

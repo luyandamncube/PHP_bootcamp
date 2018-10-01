@@ -1,0 +1,23 @@
+/*
+    #
+    The id selector uses the id attribute of an HTML element to select a specific element.
+    CODES:
+        dialog box #88FF89
+        background #505050
+        containers #909090
+*/
+.body {
+    background-color: #505050;    
+}
+.h1 { 
+    color: white; 
+}
+[class*="container-"]{
+    background-color: #909090;
+    border-radius : 10px;
+    display: flex;
+    justify-content: space-around;
+    border : 1px #ccc solid;
+    padding : 10px;
+    font-size: 22px;
+}

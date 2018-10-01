@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+    HTML: H(H(S)BS) <html> (<head <style> > <body> <script>)
+    Add style classes to <style>
+	CSS Selectors: 
+		" my_style" Select specified element (e.g. a <h1> or a <ul>)
+		".my_style" Selects all elements with class="my_stlye"
+		"*my_style" Selects all elements
+	REMEMBER: The above styling could actually be placed in an external .css file and imported using <link>
+    
+    /////////////////////////////////////////////////////////////
+    FLEBOXES
+    .container {
+        PROPERTIES
+        display: flex;
+        flex-direction: row | row-reverse | column | column-reverse;
+        flex-wrap: nowrap | wrap | wrap-reverse;
+        flex-basis: <length>
+        flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+        justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+        align-items: flex-start | flex-end | center | baseline | stretch;
+        }
+
+    ////////////////////////////////////////////////////////////////
+        DISPLAY:
+        FLEX_DIRECTION: 
+            rows or columns. left-right , right-left, up-downm, down-up
+        FLEX_BASIS:
+            width. 
+        JUSTIFY_CONTENT: 
+            for horizontal/main alignment
+        ALIGN_SELF: 
+            override. for horizontal/main alignment of individual items. 
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        FLEX_WRAP: 
+            nowrap (default): all flex items will be on one line
+            wrap: flex items will wrap onto multiple lines, from top to bottom.
+            wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+-->
+
+
+<html>
+    <head>
+        <title> Basics </title>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .body {
+                background-color: pink;    
+            }
+            .h1 { 
+                color: white; 
+            }
+            [class*="container-"]{
+                display: flex;
+                justify-content: space-around;
+                /*border : 1px #ccc solid;*/
+                padding : 10px;
+                
+                font-size: 22px;
+            }
+            .container-1 {
+                font-family: 'Sofia';
+            }
+            .container-2 {
+                font-family: 'Bubbler One';
+                font-size: 22px;
+            }
+            .container-3 {
+                font-family: 'Sofia';
+                font-size: 22px;
+                color: white; 
+            }
+            .img {
+                width:150px;
+                height:100px;
+                border:0;
+            }
+
+            .line{
+                display: flex;
+                justify-content : flex-end;
+                color: white; 
+                font : monospace;
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body class="body">
+        <div >
+            <div class= "container-1"> 
+                <h1 align-items="center" class="h1"> Treat yourself♥</h1>
+            </div>
+            <div class= "container-2"> 
+                <div>
+                    <img class="img" src="http://atmosphere.co.za/wp-content/uploads/2017/11/Untitled-3-01-950x950.jpg" alt="superbalist">       
+                </div>
+                <div>
+                    <img class="img" src="http://ventureburn.com/wp-content/uploads/2014/02/spree.jpg" alt="spree">  
+                </div>
+
+            </div>
+            <div class= "container-3"> 
+                <href> https://superbalist.com/ </href>
+                <href> https://spree.co.za/ </href>
+            </div>
+            <hr> 
+            <div class="line"> 
+               <p> © ol lmcnube </p>
+                
+            </div>
+        </div>
+    
+    </body>
+
+</html>
