@@ -12,12 +12,30 @@
 .h1 { 
     color: white; 
 }
+.br {
+   line-height: 170%;
+}
 [class*="container-"]{
     background-color: #909090;
     border-radius : 10px;
+    box-shadow: 20px 15px 10px 0px; 
     display: flex;
     justify-content: space-around;
-    border : 1px #ccc solid;
+    /*border : 1px #ccc solid;*/
     padding : 10px;
     font-size: 22px;
+}
+
+.container-1{
+    justify-content: flex-start;
+}
+.container-2{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+[box*="container-"]{
+    
+}
+.box-1{
+    
 }

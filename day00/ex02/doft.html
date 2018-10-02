@@ -5,7 +5,39 @@
         holds URL
     type
         used only if href is set. specifies the media type of the linked document
+/////////////////////////////////////////////////////////////
+    FLEBOXES
+    .container {
+        PROPERTIES
+        display: flex;
+        flex-direction: row | row-reverse | column | column-reverse;
+        flex-wrap: nowrap | wrap | wrap-reverse;
+        flex-basis: <length>
+        flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+        justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+        align-items: flex-start | flex-end | center | baseline | stretch;
+        }
+
+    ////////////////////////////////////////////////////////////////
+        DISPLAY:
+        FLEX_DIRECTION: 
+            rows or columns. left-right , right-left, up-down, down-up
+        FLEX_BASIS:
+            width. 
+        JUSTIFY_CONTENT: 
+            for horizontal/main alignment
+        ALIGN_SELF: 
+            override. for horizontal/main alignment of individual items. 
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        ALIGN_ITEMS: 
+            for vertical/cross alignment
+        FLEX_WRAP: 
+            nowrap (default): all flex items will be on one line
+            wrap: flex items will wrap onto multiple lines, from top to bottom.
+            wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
 -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,11 +48,31 @@
     </head>
     <body class="body">
     <div class="container-1">
-        <h1> GREETINGS </h1>    
+        <img src="resources/day_of_the_42.png" alt="day_of_the_42">
+        <img src="resources/close.gif" alt="close">
+        <img src="resources/reload.png" alt="start from the beginning">
     </div>
-    <div class="container-2">
-        <h1> GREETINGS </h1>    
+        <br class="br">
+
+    <div class="container-2"> 
+        <div>
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">     
+        </div>
+        <div class="container-3"> 
+        <div>
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">
+            <img src="resources/close.gif" alt="close">     
+        </div>
     </div>
+        
+
     
     
     </body>
