@@ -22,10 +22,10 @@
         echo "'>\n</body></html>\n";
     }
     else{
-        header("Cache-Control: no-cache, must-revalidate");
         //authentication via http protocol
-        header("WWW-Authenticate: Basic Real='My Realm'");
+        header("HTTP/1.0 401 Unauthorized");
+        header("WWW-Authenticate: Basic realm=''Member area''");
         header("Content-Type: text/html");
-        echo "<html><body>That area is accessible for members only</body></html>";
+        echo "<html><body>That area is accessible for members only</body></html>\n";
     }
 ?>
