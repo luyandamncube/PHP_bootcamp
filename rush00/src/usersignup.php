@@ -13,8 +13,8 @@
 <div class="container-1"> 
     <a href="../index.php"><img class="homelogo" src="../img/logo.jpg" alt="logo"></a>
 </div>
-<br></br>
-<form class="form" name="sign_up_form" method="POST" action="scripts/sign_up.php">
+<br />
+<form class="form" name="sign_up_form" method="POST" action="./sign_up.php">
                     Name:<input type="text" id="firstName" name="firstName" required="required" placeholder="First name" value=""/>
                     <br />
                     Surname:<input type="text" id="lastName" name="lastName" required="required" placeholder="Last name" value="" />
@@ -32,9 +32,8 @@
             </form>	
         </div>
 
-
-        <div class="footer"> 
+    <div class="footer"> 
             © yzungula &amp; lmncube 2018
-        </div>
+    </div>
 </body>
 
