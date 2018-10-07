@@ -1,39 +1,33 @@
-<?php 
+<?php
 ?>
-
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Luxury</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/style.css"/>
 </head>
+
 <body>
-    <div class="container-1" > 
-            <a href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
-            <ul class="ul">
-                <li>
-                <a class="a" href="#">Dropdown Link</a>
-                <ul class="ul">
-                    <li class="li"><a href="#">Link 1</a></li>
-                    <li class="li"><a href="#">Link 2</a></li>
-                    <li class="li"><a href="#">Link 3</a></li>
-                </ul>
-                </li>
-            </ul>
-            <a class="a" href="#"> MENS </a>
-            <a class="a" href="#"> WOMENS </a>
-            <a class="a" href="#"> KIDS </a>
-            <a href="#"><img class="logo" src="img/basket.jpg" alt="basket"></a>
-    </div>
-    <div class="container-2"></div>
-        <div> 2 </div>
-        <div> 3 </div>
-        <div> 4 </div>
-        <div class="footer"> 
-            © footer 2018
+
+<div class="container-1"> 
+    <img class="homelogo" src="./img/logo.jpg" alt="logo">
+</div>
+<br></br>
+        <div class="tooltip container-3">
+            <form class="form" action="./src/home.php" method="">
+                Username:
+                <input name="username" type="text">
+                Password:
+                <input name="password" type="text">
+                <input type="submit">
+                <span class="tooltiptext"> Log into your YL account</span>
+            </form>
         </div>
-    </div>
+
+
+        <div class="footer"> 
+            © yzungula &amp; lmncube 2018
+        </div>
 </body>
-</html>
+
