@@ -14,7 +14,7 @@
     <div class ="tooltip">
             <a href="home.php"><img class="logo" src="../img/logo.jpg" alt="logo"></a>
             <span class="tooltiptext"> Home </span>
-        </div> 
+    </div> 
             <ul class="ul">
                 <li>
                 <a class="a" href="./mens.php">MENS</a>
@@ -54,6 +54,11 @@
                 <a href="../index.php"><img class="basketlogo" src="../img/logout.png" alt="basket"></a>
                 <span class="tooltiptext"> Logout </span>
             </div>
+    </div>
+    <div class= "container-1">
+        <img class="splash" src="../img/splash.jpg" alt="splashscreen">
+        <img class="splash" src="../img/splash.jpg" alt="splashscreen">
+        <img class="splash" src="../img/splash.jpg" alt="splashscreen">
     </div>
 
         <div class="footer"> 

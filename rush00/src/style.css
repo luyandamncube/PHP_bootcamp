@@ -23,7 +23,10 @@
 
 
 .form{
-
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: .5em;
     font-family: 'Courier New', Courier, monospace;  
 }
 
@@ -58,8 +61,8 @@
     display : flex;
     justify-content: space-around;
     align-items: center;
-    width : 60px;
-    height: 60px;
+    width : 30px;
+    height: 30px;
 }
 /*dropdown lists*/
 ul {
@@ -207,4 +210,8 @@ body {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+}
+
+.button{
+    display : flex;
 }

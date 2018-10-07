@@ -35,27 +35,27 @@
     <!-- column 1 -->
   <div class="column">
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/025.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/026.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/027.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/028.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/029.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/030.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
 
@@ -63,27 +63,27 @@
    <!-- column 1 -->
   <div class="column">
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/031.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/032.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/033.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/034.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/035.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_2.png" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/036.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         </div>

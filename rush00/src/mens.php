@@ -21,39 +21,6 @@
     <!DOCTYPE html>
 <html>
 <style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace; 
-}
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
 
 </style>
 <body>
@@ -68,27 +35,27 @@ body {
     <!-- column 1 -->
   <div class="column">
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/001.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/002.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/003.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/004.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/005.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/006.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
 
@@ -96,27 +63,27 @@ body {
    <!-- column 1 -->
   <div class="column">
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/007.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/008.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/009.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/010.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/011.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         <div class ="tooltip">
-            <a href="basket.php"><img src="../img/page_1.jpg" style="width:100%"></a>
+            <a href="basket.php"><img src="../img/012.jpg" style="width:100%"></a>
             <span class="tooltiptext"> Add to basket </span>
         </div>
         </div>
