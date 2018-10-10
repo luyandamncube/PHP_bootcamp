@@ -27,7 +27,6 @@
                 $green = intval($rgbkey['green']);
                 $blue = intval($rgbkey['blue']);
             }
-
             if (self::$verbose){
                 echo ;
             }
